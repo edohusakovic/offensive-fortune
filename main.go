@@ -63,7 +63,6 @@ func Scrape(site Site, jokes chan string) {
 
 var configuration = []Site{
 	Site{"https://top-funny-jokes.com/offensive-jokes/", ".su-list li", ""},
-	Site{"http://www.laughfactory.com/jokes/racist-jokes/", ".joke-text p", ".pagination li a"},
 	Site{"http://funnycomedianquotes.com/funny-jimmy-carr-jokes-and-quotes.html?p=1", ".quote", ".pages li a"},
 }
 
